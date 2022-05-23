@@ -1,4 +1,4 @@
-# developersreg
+# anas-blog
 
 ## Project setup
 ```
@@ -22,10 +22,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
-### Table of contents
-
----|Name|link
----|---|---
-1-|login|[go](https://github.com/Anas-Abuhatab/trainning)
