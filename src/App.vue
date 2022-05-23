@@ -1,21 +1,14 @@
 <template>
-  <Registration-and-Login/>
+  <nav-bar></nav-bar>
+  <router-view></router-view>
+  <the-footer></the-footer>
 </template>
 
-<script>
-// import path from 'path';
-// dirname(require.main.path);
-export default {
-  data() {
-    return {};
-  },
-};
-</script>
-
-<style>
-@font-face {
-  font-family: "Tajawal";
-  src: local("Tajawal"),
-   url(./assets/fonts/Tajawal/Tajawal-Medium.ttf) format("truetype");
+<style lang="scss">
+body {
+  margin: 0;
+  background-color: #eee2dc;
+  color: #123c69;
+  font-weight: bold;
 }
 </style>
